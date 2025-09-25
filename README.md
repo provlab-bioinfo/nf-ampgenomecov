@@ -1,7 +1,6 @@
 # nf-ampgenomecov
 
-**nf-ampgenomecov** is a modular and scalable [Nextflow](https://www.nextflow.io/) pipeline designed to generate **genome and amplicon-level coverage profiles and visualizations** from BAM alignment file inputs.  
-It is particularly suited for **tiled amplicon sequencing data** — such as viral panels or multiplexed PCR assays — and enables high-resolution coverage diagnostics across target regions.
+**nf-ampgenomecov** is a modular and scalable [Nextflow](https://www.nextflow.io/) pipeline designed to generate **genome and amplicon-level coverage profiles and visualizations** from BAM alignment file inputs.  It is particularly suited for **tiled amplicon sequencing data** — such as viral panels or multiplexed PCR assays — and enables high-resolution coverage diagnostics across target regions.
 
 ---
 
@@ -33,8 +32,8 @@ Pre-aligned BAM files with reads mapped to a reference genome.
 All BAMs should be coordinate-sorted and indexed.
 
 ```bash
-/path/to/sample1.sorted.bam
-/path/to/sample2.sorted.bam
+/path/to/sample1.primertrimmed.rg.sorted.bam
+/path/to/sample2.primertrimmed.rg.sorted.bam
 ...
 
 example command
