@@ -35,8 +35,11 @@ All BAMs should be coordinate-sorted and indexed.
 /path/to/sample1.primertrimmed.rg.sorted.bam
 /path/to/sample2.primertrimmed.rg.sorted.bam
 ...
+```
 
 example command
+
 ```bash
 nextflow run ../main.nf --bam_dir ./bam --bam_file_pattern *.primertrimmed*.bam -profile singularity --outdir results/ --input bam --ref reference/reference.fasta --primer_bed bed/amplicon.bed 
 ```
+
