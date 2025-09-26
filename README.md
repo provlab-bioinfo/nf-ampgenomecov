@@ -27,7 +27,7 @@ You can clone or download the nf-ampgenomecov from github to local computer or y
 nextflow run xiaoli-dong/nf-ampgenomecov -r revision_number(e.g:e34cdfb) --help
 ```
 
-### required inputs
+### Required inputs
 1. bam directory" a directory contains the sorted bam files with or without index files
 2. bam file naming pattern
 3. bed files
