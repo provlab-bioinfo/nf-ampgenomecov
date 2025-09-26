@@ -39,6 +39,7 @@ Now, you can run the pipeline using:
 <!-- TODO nf-core: update the following command to include all required parameters for a minimal example -->
 
 ```bash
+
 nextflow run ../main.nf \
   --bam_dir ./bam \
   --bam_file_pattern *.primertrimmed*.bam \
@@ -47,6 +48,8 @@ nextflow run ../main.nf \
   --input bam \
   --ref reference/reference.fasta \
   --primer_bed bed/amplicon.bed \
+  --primer_left_suffix _LEFT \
+  --primer_right_suffix _RIGHT \
   -resume 
 
 ```  
